@@ -1,5 +1,9 @@
-function sum(){
-    return 5;
+function sum(a,b){
+    return a+b;
 }
 
+
+function obj(){
+    return ({name:'raja'})
+}
 module.exports=sum
