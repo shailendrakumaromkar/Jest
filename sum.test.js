@@ -24,4 +24,16 @@ describe('Numbers test',()=>{
         expect(val).toBeLessThan(9)
         expect(val).toBeLessThanOrEqual(5)
     })
+
+    it('adding floats',()=>{
+        const val = 0.1+0.2;
+        expect(val).toBeCloseTo(0.299999)
+    })
+})
+
+
+describe('String test',()=>{
+    it('String test case',()=>{
+        expect('Team').toMatch(/m/)
+    })
 })
