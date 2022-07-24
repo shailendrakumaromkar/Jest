@@ -36,4 +36,29 @@ describe('String test',()=>{
     it('String test case',()=>{
         expect('Team').toMatch(/m/)
     })
+
+    it('String test case',()=>{
+        expect('Team').not.toMatch(/L/)
+    })
+})
+
+
+describe('Arrays',()=>{
+    it('Arrays Test Case',()=>{
+        const list=['Apple','Mango','Banana','Grape']
+
+        expect(list).toContain('Mango')
+    })
+})
+
+
+function compileError(){
+    throw new Error('Testing error')
+}
+
+describe('Exception',()=>{
+    it('Exception Test Case',()=>{
+        expect(()=> compileError()).toThrow('Testing error')
+
+    })
 })
