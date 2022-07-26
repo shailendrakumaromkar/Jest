@@ -1,5 +1,5 @@
 function solution(A) {
-    // write your code in JavaScript (Node.js 8.9.4)
+    // write your code in JavaScript (Node.js 8.9.4);
     
    for (i = 1; i < 1000000; i++) {
     if(!A.includes(i)) return i;
