@@ -1,5 +1,8 @@
 'input' is an array or not. > (toString.call(input) === "[object Array]")
-Clone an array > arra1.slice(0);
-                or spread operator (...), > y = [...x];
-
-
+Clone an array >    arra1.slice(0);
+                    or spread operator (...), > y = [...x];
+                    or y = Array.from(x);
+                    or y = x.slice();
+                    or y = x.map(i => i);
+                    or y = x.filter(() => true);
+                    
