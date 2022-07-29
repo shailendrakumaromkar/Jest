@@ -1,3 +1,14 @@
+GFG
+find peak element in array : left right compare
+maximum-and-minimum-in-an-array : 
+Reverse an Array : array.reverse()
+Sort The Array : arrays.sort()
+Kth smallest element :  Sort the given array &     return arr[k - 1];
+
+
+
+
+
 'input' is an array or not. > (toString.call(input) === "[object Array]")
 Clone an array >    arra1.slice(0);
                     or spread operator (...), > y = [...x];
@@ -6,3 +17,4 @@ Clone an array >    arra1.slice(0);
                     or y = x.map(i => i);
                     or y = x.filter(() => true);
                     
+
