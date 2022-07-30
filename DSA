@@ -33,4 +33,3 @@ Clone an array >    arra1.slice(0);
                     or y = x.map(i => i);
                     or y = x.filter(() => true);
                     
-
