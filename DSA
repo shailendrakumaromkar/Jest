@@ -4,6 +4,25 @@ maximum-and-minimum-in-an-array :
 Reverse an Array : array.reverse()
 Sort The Array : arrays.sort()
 Kth smallest element :  Sort the given array &     return arr[k - 1];
+frequency of a number in an array : hasnap , get, put
+Sort an array of 0s, 1s and 2s | Dutch National Flag problem
+Subarray with given sum : 
+Move all negative elements to end in order with extra space allowed
+Union of two arrays
+Cyclically rotate an array by one
+Missing number in array
+
+Find duplicates in an array
+Find the first repeating element in an array of integers
+Non-Repeating Element
+Array Subset of another array
+
+
+String
+Reverse words in a given string
+Longest Common Prefix in an Array
+Roman Number to Integer
+Closest Strings
 
 
 
