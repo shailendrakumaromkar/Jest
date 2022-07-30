@@ -27,7 +27,6 @@ Closest Strings
 
 
 
-
 'input' is an array or not. > (toString.call(input) === "[object Array]")
 Clone an array >    arra1.slice(0);
                     or spread operator (...), > y = [...x];
