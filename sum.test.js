@@ -16,7 +16,6 @@ describe('Test Suite', ()=>{
 })
 
 
-
 describe('Numbers test',()=>{
     it('number test',()=>{
         const val = 2+3;
