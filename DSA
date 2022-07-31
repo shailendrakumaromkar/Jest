@@ -23,6 +23,12 @@ Reverse words in a given string
 Longest Common Prefix in an Array
 Roman Number to Integer
 Closest Strings
+Isomorphic Strings
+Validate an IP Address
+Find largest word in dictionary
+Find an Replace in String
+Sum of two large numbers
+Multiply two strings
 
 
 'input' is an array or not. > (toString.call(input) === "[object Array]")
