@@ -1,5 +1,5 @@
 const fetchData = require('./async')
-//test case;
+//test case
 describe('async test', ()=>{
     it('async test cases', async()=>{
 
