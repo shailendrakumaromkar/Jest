@@ -9,8 +9,8 @@ describe('Test Suite', ()=>{
     })
 
     it('To Equal test',()=>{
-        const obj = {}
-        expect(obj).toEqual({});
+        const obj = fn(['A','B','C'])
+        expect(obj).toEqual(['A','B','C']);
     })
 
 })
