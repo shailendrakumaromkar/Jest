@@ -2,7 +2,7 @@ it("returns undefined and has been called correct number of times", () => {
     const mock = jest.fn();
   
     const result = mock();
-  //
+  ///
     expect(result).toBeUndefined();
     expect(mock).toHaveBeenCalledTimes(1);
     expect(mock).toHaveBeenCalledWith();
