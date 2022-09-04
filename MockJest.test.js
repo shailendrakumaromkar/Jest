@@ -42,7 +42,7 @@ test("calls math.subtract", () => {
 });
 
 
-//jest.mock()
+//jest.mock()//
 
 /// Set all module functions to jest.fn//
 jest.mock("./math.js");
