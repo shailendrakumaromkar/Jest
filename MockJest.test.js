@@ -59,7 +59,7 @@ test("calls math.subtract", () => {
 
 
 //spyon
-
+//jest.spyOn(object, methodName)
   test("calls math.add", () => {
     const addMock = jest.spyOn(math, "add");
   

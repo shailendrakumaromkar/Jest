@@ -1,0 +1,44 @@
+The variables that are defined with var statement have a function scope.
+The variables that are defined with let statement have a block scope.
+
+
+We can declare a variable again even if it has been defined previously in the same scope.	
+We cannot declare a variable more than once if we defined that previously in the same scope.
+
+Hoisting is allowed with var.	
+Hoisting is not allowed with let.
+
+
+What is hoisting with example in JavaScript?
+Hoisting in JavaScript is a behavior in which a function or a variable can be used before declaration
+
+beforeAll, beforeEach
+
+expect(result).toBeUndefined();
+expect(mock).toHaveBeenCalledTimes(1);
+expect(mock).toHaveBeenCalledWith();
+
+
+mock
+    const mock = jest.fn();
+
+//jest.spyOn(object, methodName)
+test("calls math.add", () => {
+    const addMock = jest.spyOn(math, "add");
+  
+    // override the implementation
+    addMock.mockImplementation(() => "mock");
+    expect(app.doAdd(1, 2)).toEqual("mock");
+  
+    // restore the original implementation
+    addMock.mockRestore();
+    expect(app.doAdd(1, 2)).toEqual(3);
+  });
+
+
+Arrays
+const list=['Apple','Mango','Banana','Grape']
+
+        expect(list).toContain('Mango'
+
+
