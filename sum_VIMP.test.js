@@ -1,6 +1,6 @@
 const sum = require('./sum')
 
-//////
+///////
 describe('Test Suite', ()=>{
 
     it('sum of 2 number',()=>{
