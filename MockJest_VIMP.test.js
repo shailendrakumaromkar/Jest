@@ -72,7 +72,7 @@ test("calls math.subtract", () => {
     expect(app.doAdd(1, 2)).toEqual(3);
   });
 
-// /*///////
+// /*/////
 const res = jest.fn()
 res()
 expect(res).toHaveBeenCalled()
